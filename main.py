@@ -24,7 +24,7 @@ clock = pygame.time.Clock()
 
 def new_grid():
     '''Creates an empty grid.'''
-    return [[0 for _ in range(SCREEN_HEIGHT)] for _ in range(SCREEN_WIDTH)]
+    return [[0 for _ in range(Row_Count)] for _ in range(Col_Count)]
 
 def draw_grid(grid):
     '''Draws plants if plants are not already drawn.'''
